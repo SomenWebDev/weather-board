@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  /* Container configuration */
+  --container-mx: auto;
+  --container-px: 1.25rem;
+
+  /* Custom colors */
+  --color-primary: #b4d429;
+  --color-dark: #171923;
+  --color-light: #fff;
+  --color-body: #1d1e28;
+}
+@utility container {
+  width: 100%;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
